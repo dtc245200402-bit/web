@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Phim Hoạt Hình</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Phần Header giữ cố định khi cuộn trang -->
+    <div class="header-container">
+        <header class="header">
+            <div class="logo">
+                <h1>PhimHoạtHình</h1>
+            </div>
+        </header>
+
+        <!-- Phần Head-link -->
+        <nav class="head-link">
+            <a href="#">Phim hoạt hình</a> <span class="divider">|</span>
+            <a href="#">Phim hoạt hình yêu thích</a> <span class="divider">|</span>
+            <a href="#">Nhân vật hoạt hình</a> <span class="divider">|</span>
+            <a href="#">Góp ý</a>
+        </nav>
+    </div>
+
+    <!-- Phần Content chính -->
+    <div class="main-content">
+        <!-- Left Content: Danh sách video -->
+        <div class="left-content">
+            <div class="video-item">
+                <img src="https://via.placeholder.com/150x90" alt="Thumbnail">
+                <div class="video-info">
+                    <h4>Welcome đến với khách sạn Nobi</h4>
+                    <p>5,147,528 lượt xem</p>
+                    <p class="channel">Channel Fun</p>
+                </div>
+            </div>
+            <div class="video-item">
+                <img src="https://via.placeholder.com/150x90" alt="Thumbnail">
+                <div class="video-info">
+                    <h4>Suneo khổng lồ</h4>
+                    <p>5,147,528 lượt xem</p>
+                    <p class="channel">Doreamon Vietsub</p>
+                </div>
+            </div>
+            <div class="video-item">
+                <img src="https://via.placeholder.com/150x90" alt="Thumbnail">
+                <div class="video-info">
+                    <h4>Còi điều khiển vật</h4>
+                    <p>5,147,528 lượt xem</p>
+                    <p class="channel">Doreamon Vietsub</p>
+                </div>
+            </div>
+            <div class="video-item">
+                <img src="https://via.placeholder.com/150x90" alt="Thumbnail">
+                <div class="video-info">
+                    <h4>Chiếc máy tạo kẹo bông</h4>
+                    <p>5,147,528 lượt xem</p>
+                    <p class="channel">Doreamon Vietsub</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right Content: Nội dung video được chọn -->
+        <div class="right-content">
+            <!-- Sử dụng iframe để nhúng video YouTube -->
+            <div class="video-player">
+                <iframe width="100%" height="450" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                
+                <!-- Ví dụ cách sử dụng thẻ <video> tải trực tiếp từ server -->
+                <!-- 
+                <video width="100%" controls>
+                    <source src="video.mp4" type="video/mp4">
+                    Trình duyệt của bạn không hỗ trợ thẻ video.
+                </video> 
+                -->
+            </div>
+
+            <div class="video-description">
+                <h2>Tớ là Mari</h2>
+                <p class="views">5,147,528 lượt xem</p>
+                <p class="author"><strong>Tác giả:</strong> Admin</p>
+                
+                <div class="desc-text">
+                    <p>Bộ phim kể về câu chuyện Thạch Sanh chém Trăn Tinh cứu dân, bắn Đại Bàng cứu công chúa, dùng tiếng đàn nhân nghĩa dẹp tan quân xâm lăng. Nhưng cuộc đời Thạch Sanh luôn bị tên Lý Thông làm cho điêu đứng. Cuối cùng chính nghĩa đã thắng. Tên Lý Thông gian ác bị đền tội. Mời các bạn cùng đón xem và cảm nhận.</p>
+                    <p>Bộ phim kể về câu chuyện Thạch Sanh chém Trăn Tinh cứu dân, bắn Đại Bàng cứu công chúa, dùng tiếng đàn nhân nghĩa dẹp tan quân xâm lăng. Nhưng cuộc đời Thạch Sanh luôn bị tên Lý Thông làm cho điêu đứng. Cuối cùng chính nghĩa đã thắng. Tên Lý Thông gian ác bị đền tội. Mời các bạn cùng đón xem và cảm nhận.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Phần Footer -->
+    <footer class="footer">
+        <p>© 2017 - Thiết kế web bởi trang hoathinhvn.net</p>
+    </footer>
+
+</body>
+</html>
